@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:icon="@drawable/ic_info_black_24dp"
+            android:title="About"
+            android:id="@+id/about"/>
+        <item android:icon="@drawable/ic_theaters_black_24dp"
+            android:title="Gallary"
+            android:id="@+id/gallary"/>
+    </group>
+    <item android:title="Communication">
+    <menu>
+        <item android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share"
+            android:id="@+id/share"/>
+        <item android:icon="@drawable/ic_send_black_24dp"
+            android:title="Send"
+            android:id="@+id/send"/>
+    </menu>
+
+    </item>
+
+<item android:title="Follow us on">
+
+   <menu>
+       <item android:icon="@drawable/ic_logo"
+           android:title="Facebook"
+           android:id="@+id/facebook"/>
+       <item android:icon="@drawable/ic_youtube_logo"
+           android:id="@+id/youtube"
+           android:title="Youtube"/>
+       <item android:icon="@drawable/ic_linkedin"
+           android:id="@+id/linkedin"
+           android:title="Linkedin"/>
+       <item android:icon="@drawable/ic_media"
+           android:id="@+id/twitter"
+           android:title="Twitter"/>
+   </menu>
+
+
+</item>
+
+</menu>
