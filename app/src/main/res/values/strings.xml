@@ -4,4 +4,15 @@
     <string name="close">Close</string>
 
     <string name="facebook_api">542718126173649</string>
+
+    <string name="process">
+        1. go to https://developers.facebook.com
+        2. MyApp -> Add New App -> Display Name, Contact Email ->click Create App Id -> Im not robot submit
+        3. copy APP ID to strings.xml.
+        4. Settings -> Basic ->Add Platform -> Android -> give Google Play Package, Class Name, Key Hashes
+        then save changes -> Use this package name.
+        5. Package Name: com.support.fb, Class Name: com.support.fb.MainActivity,
+        6. For KeyHashes: Gradles -> Tasks -> Android -> signingReport, in run section copy SH1 key
+        7. Docs -> Android SDK -> login
+    </string>
 </resources>
