@@ -120,10 +120,10 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch(item.getItemId()){
                     case R.id.about:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new About()).commit();
+                        Toast.makeText(MainActivity.this,"About Us page", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.gallary:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new Gallery()).commit();
+                        Toast.makeText(MainActivity.this,"Gallery Page", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.send:
                         Toast.makeText(MainActivity.this,"Send", Toast.LENGTH_SHORT).show();
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this,"Share", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.facebook:
-                        Toast.makeText(MainActivity.this,"Connectiong to facebbok", Toast.LENGTH_SHORT).show();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new FacebookFragment()).commit();
                         break;
                     case R.id.linkedin:
                         Toast.makeText(MainActivity.this,"Connection to linkedin", Toast.LENGTH_SHORT).show();
