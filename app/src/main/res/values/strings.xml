@@ -2,4 +2,6 @@
     <string name="app_name">Lumbini Development Trust</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string name="facebook_api">542718126173649</string>
 </resources>
